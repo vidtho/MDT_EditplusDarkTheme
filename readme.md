@@ -1,23 +1,25 @@
+# Editplus Dark Theme
 With new versions of Editplus (ver 4.3) one can created their own themes for editplus. Inspired by the theme Monokai this is a small attempt to replicate the colors of that theme.
 
-![html](https://vidtho.github.io/Editplus_DarkTheme/Documentation/html.png)
-![plsql](https://vidtho.github.io/Editplus_DarkTheme/Documentation/plsql.png)
-![java](https://vidtho.github.io/Editplus_DarkTheme/Documentation/java.png)
+![html](/Documentation/html.png?raw=true "Screenshot HTML")
+![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL")
+![java](/Documentation/java.png?raw=true "Screenshot JAVA")
 
-Instructions:
+## Instructions:
 
 Download the url from github
 
-Step 1: Import the theme
+**Step 1: Import the theme**
 open Editplus Menu -> Tools -> Preferences
 General -> Colors -> Import -> <Select dark_theme_monokai.ini> -> Apply
-![colors](https://vidtho.github.io/Editplus_DarkTheme/Documentation/colors.png)
 
-Step 2: Select syntax for plsql [optional]
+![colors](/Documentation/colors.png?raw=true)
+
+**Step 2: Select syntax for plsql [optional]**
 open editplus. Goto Menu -> Tools -> Preferences
 General -> Settings & syntax -> 
 - Add -> SQL
 - File extensions -> sql
 - Syntax file -> open -> <select oracle_plsql.stx> -> Apply
 
-![syntax](https://vidtho.github.io/Editplus_DarkTheme/Documentation/syntax.png)		
+![syntax](/Documentation/syntax.png?raw=true)		
