@@ -16,6 +16,11 @@ With new versions of Editplus (ver 4.3) one can created their own themes for edi
 | ![java](/Documentation/java.png?raw=true "Screenshot JAVA") |
 
 
+| **Python**                                                      | 
+|-----------------------------------------------------------------|
+| ![java](/Documentation/python.png?raw=true "Screenshot Python") |
+
+
 
 ## Instructions:
 
@@ -30,11 +35,12 @@ open Editplus
 
 
 
-### Step 2: Select syntax for plsql [optional]
+### Step 2: Select syntax for plsql or python [optional]
+Copy the syntax files (.stx) to editplus's respective syntax file folder
 open editplus. Goto Menu -> Tools -> Preferences
 -	General -> Settings & syntax -> 
 	-	Add -> SQL
 	-	File extensions -> sql
-	-	Syntax file -> open -> **oracle_plsql.stx** -> Apply
+	-	Syntax file -> open -> **oracle_plsql.stx** or **python.stx** -> Apply
 
 ![syntax](/Documentation/syntax.png?raw=true)		
