@@ -1,44 +1,45 @@
 -- DDL
-CREATE TABLE EMP(  
-  EMPNO    NUMBER(4,0),  
-  ENAME    VARCHAR2(10),  
-  JOB      VARCHAR2(9),  
-  MGR      NUMBER(4,0),  
-  HIREDATE DATE,  
-  SAL      NUMBER(7,2),  
-  COMM     NUMBER(7,2),  
-  DEPTNO   NUMBER(2,0),  
-  CONSTRAINT PK_EMP PRIMARY KEY (EMPNO),  
-  CONSTRAINT FK_DEPTNO FOREIGN KEY (DEPTNO) REFERENCES DEPT (DEPTNO)  
+create table emp(  
+  empno    number(4,0),  
+  ename    varchar2(10),  
+  job      varchar2(9),  
+  mgr      number(4,0),  
+  hiredate date,  
+  sal      number(7,2),  
+  comm     number(7,2),  
+  deptno   number(2,0),  
+  constraint pk_emp primary key (empno),  
+  constraint fk_deptno foreign key (deptno) references dept (deptno)  
 );
 
-CREATE INDEX EMP.EMP_DEPTNO_INDX1 ON EMP(DEPTNO);
-GRANT SELECT ON EMP TO HR;
+create index emp.emp_deptno_indx1 on emp(deptno);
+grant select on emp to hr;
 
 -- DML
-INSERT INTO EMP (EMPNO, ENAME, JOB, HIREDATE, SAL, DEPTNO)
-VALUES( 7839, 'KING', 'PRESIDENT', TO_DATE('17-11-1981','DD-MM-YYYY'), 5000, 10);
+insert into emp (empno, ename, job, hiredate, sal, deptno)
+values( 7839, 'king', 'president', to_date('17-11-1981','dd-mm-yyyy'), 
+        5000, 10);
 
 -- PL/SQL
-DECLARE
-   V_EMPNO NUMBER;
-BEGIN
-   SELECT EMPNO INTO V_EMPNO FROM EMP WHERE ENAME = 'KING');
-   DBMS_OUTPUT.PUT_LINE(V_EMPNO);
-END;
+declare
+   v_empno number;
+begin
+   select empno into v_empno from emp where ename = 'king');
+   dbms_output.put_line(v_empno);
+end;
 /
 
 -- SELECT
-SELECT D.DEPARTMENT_NAME,
-       E.EMPLOYEE_NAME
-FROM   DEPARTMENTS D
-JOIN EMPLOYEES E ON D.DEPARTMENT_ID = E.DEPARTMENT_ID
-WHERE  D.DEPARTMENT_ID >= 30
-ORDER BY D.DEPARTMENT_NAME;
+select d.department_name,
+       e.employee_name
+from   departments d
+join employees e on d.department_id = e.department_id
+where  d.department_id >= 30
+order by d.department_name;
 
-SELECT D.DEPARTMENT_NAME,
-       E.EMPLOYEE_NAME     
-FROM   DEPARTMENTS D
-LEFT OUTER JOIN EMPLOYEES E ON D.DEPARTMENT_ID = E.DEPARTMENT_ID
-WHERE  D.DEPARTMENT_ID >= 30
-ORDER BY D.DEPARTMENT_NAME, E.EMPLOYEE_NAME;
+select d.department_name,
+       e.employee_name     
+from   departments d
+left outer join employees e on d.department_id = e.department_id
+where  d.department_id >= 30
+order by d.department_name, e.employee_name;
