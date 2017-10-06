@@ -10,16 +10,16 @@ Inspired by the theme Monokai this is an attempt to replicate the colors of that
 | **HTML**                                                    | 
 |-------------------------------------------------------------|
 | ![html](/Documentation/html.png?raw=true "Screenshot HTML") |
-<br />
+
 | **PL/SQL**                                                      |  |
 |----|-----|
 |mdt theme|idt theme|
 | ![plsql1](/Documentation/plsql.png?raw=true "Screenshot PL/SQL") | ![plsql2](/Documentation/plsql2.png?raw=true "Screenshot PL/SQL") |
-<br />
+
 | **Java**                                                    | 
 |----|
 | ![java](/Documentation/java.png?raw=true "Screenshot JAVA") |
-<br />
+
 | **Python**                                                      |  |
 |----|----|
 |mdt theme|idt theme|
