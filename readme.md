@@ -7,6 +7,26 @@ Inspired by the theme Monokai this is an attempt to replicate the colors of that
 
 ## Screenshots
 
+<table>
+  <tr>
+    <td><b>HTML</b></td>    
+  </tr>
+  <tr>
+    <td>![html](/Documentation/html.png?raw=true "Screenshot HTML")</td>
+  </tr>
+</table>
+<br />
+<table>
+  <tr>
+    <td colspan="2"><b>PL/SQL</b></td>    
+  </tr>
+  <tr>
+    <td>![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL")</td>
+    <td>![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL")</td>
+  </tr>
+</table>
+<br />
+
 | **HTML**                                                    | 
 |-------------------------------------------------------------|
 | ![html](/Documentation/html.png?raw=true "Screenshot HTML") |
