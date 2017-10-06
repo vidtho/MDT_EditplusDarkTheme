@@ -7,36 +7,23 @@ Inspired by the theme Monokai this is an attempt to replicate the colors of that
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td><b>HTML</b></td>    
-  </tr>
-  <tr>
-    <td>![html](/Documentation/html.png?raw=true "Screenshot HTML")</td>
-  </tr>
-</table>
-<br />
-<table>
-  <tr>
-    <td colspan="2"><b>PL/SQL</b></td>    
-  </tr>
-  <tr>
-    <td>![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL")</td>
-    <td>![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL")</td>
-  </tr>
-</table>
-<br />
-
 | **HTML**                                                    | 
 |-------------------------------------------------------------|
 | ![html](/Documentation/html.png?raw=true "Screenshot HTML") |
-| **PL/SQL**                                                      | 
-| ![plsql](/Documentation/plsql.png?raw=true "Screenshot PL/SQL") |
+<br />
+| **PL/SQL**                                                      |  |
+|----|-----|
+|mdt theme|idt theme|
+| ![plsql1](/Documentation/plsql.png?raw=true "Screenshot PL/SQL") | ![plsql2](/Documentation/plsql2.png?raw=true "Screenshot PL/SQL") |
+<br />
 | **Java**                                                    | 
+|----|
 | ![java](/Documentation/java.png?raw=true "Screenshot JAVA") |
-| **Python**                                                      | 
-| ![java](/Documentation/python.png?raw=true "Screenshot Python") |
-
+<br />
+| **Python**                                                      |  |
+|----|----|
+|mdt theme|idt theme|
+| ![python1](/Documentation/python.png?raw=true "Screenshot Python") |![python2](/Documentation/python2.png?raw=true "Screenshot Python") |
 
 
 ## Instructions:
