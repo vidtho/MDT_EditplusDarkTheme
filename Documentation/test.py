@@ -3,7 +3,6 @@ Created on Sep 4, 2017
 @author: Vidya Thotangare
 @purpose: This program will create directory, write text to file 
           and replace strings in file
-
 '''
 
 import os

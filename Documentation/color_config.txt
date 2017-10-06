@@ -1,0 +1,22 @@
+mdt config:
+============
+Foreground :	Offwhite :	248, 248, 242
+Background :	gray :		39,   40,  34
+Keyword1 :	Yellow :	230, 219, 116
+Keyword2 :	Magenta :	249,  38,  89
+Keyword3 :	Blue :		92,  217, 208
+Keyword4 :	Orange :	253, 151,  31
+Keyword5 :	Lilac :		124, 129, 255
+Quotation :	Lime green :	166, 226,  46
+Comment	:	Teal :		77,  132, 123
+ 
+idt config: 
+===========
+Foreground :	Offwhite :	248, 248, 242
+Background :	gray :		39,   40,  34
+Keyword1 :	Yellow	:	253, 227,  81
+Keyword2 :	Magenta :	249, 38,   89	 
+Keyword3 :	Blue	:	74,  179,  232
+Keyword4 :	Orange	:	253, 151,  31
+Keyword5 :	Lilac	:	174, 129,  255
+Keyword6 :	Sage :		146, 231,  203			 
